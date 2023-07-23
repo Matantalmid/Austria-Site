@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    background-image: url("background.jpg");
+    background-size: 1540px 755px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.centerHead{
+    display: flex;
+    justify-content: center;
+}
+
+#centerHead{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+}
+
+.head{
+    width: 35%;
+    position: relative;
+    left: 100px;
+    border: 10px solid;
+    border-image-source: linear-gradient(red, white);
+    border-image-slice: 1;
+    background-color: rgba(255, 228, 196, 0.258);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.head p{
+    font-size: larger;
+    text-align: justify;
+}
+
+.head h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+

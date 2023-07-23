@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    background-image: url("background.jpg");
+    background-size: 1540px 755px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 220px 220px 220px;
+    
+}
+
+.big-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+

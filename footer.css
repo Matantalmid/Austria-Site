@@ -1,0 +1,52 @@
+footer{
+    position: absolute;
+    bottom: -170px;
+    width: 100%;
+    height: 170px;
+    background-color: #183153;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+footer p{
+    margin-left: 25px;
+    color: #9c9c9c;
+}
+
+footer li{
+    margin: 7px;
+    margin-left: 0;
+}
+
+footer i{
+    margin-right: 7px;
+    
+}
+
+.community li{
+    list-style: none;
+}
+
+.community ul{
+    padding-left: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.description {
+    width: 40%;
+    margin-left: 180px;
+}
+
+.description p{
+    margin-left: 0;
+}
+
+.links{
+    display: flex;
+    margin-right: 180px;
+}

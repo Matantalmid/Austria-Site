@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    background-image: url('background.jpg');
+    background-size: 1540px 755px;
+    background-repeat: no-repeat;
+    
+}
+
+#p1{
+    display: block;
+}
+
+.headline{
+    position: absolute;
+    left: 170px;
+    top: 170px;
+}
+
+.headline h1{
+    font-weight: bold;
+    font-size: 45px;
+    width: 600px;
+}
+
+.headline p{
+    width: 400px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    border: 3px solid burlywood;
+    padding: 15px;
+}
+
+.headline span{
+    color: brown;
+}
+
+
+
+#bigmap{
+    position: relative;
+    left: 550px;
+    top: 250px;
+    transform: rotate(-10deg);
+}
+
+.mostVisited{
+    position: relative;
+    top: 450px;
+    text-align: center;
+    background-color: #183153cc;
+}
+
+#city-skyline{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 1008px;
+
+}
+
+.table-class{
+    display: flex;
+    justify-content: center;
+    transform: translateY(600px);
+    width: 80%;
+    height: 450px;
+    margin-right: 10%;
+    margin-left: 10%;
+    overflow-y: scroll;
+    border: 5px solid rgba(165, 42, 42, 0.559);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.265);
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 400px;
+    width: 80%;
+}
+
+.content-table thead tr{
+    background-color: brown;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-last-of-type(1){
+    border-bottom: 10px solid brown;
+}
+
+.content-table tbody img{
+    height: 110px;
+    width: 100px;
+}
+
+.content-table tbody i{
+    margin-left: 15px;
+}
+
+
+
+
+
+footer{
+    position: relative;
+    bottom: -650px;
+    width: 100%;
+    height: 170px;
+    background-color: #183153;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+footer p{
+    margin-left: 25px;
+    color: #9c9c9c;
+}
+
+footer li{
+    margin: 7px;
+    margin-left: 0;
+}
+
+footer i{
+    margin-right: 7px;
+    
+}
+
+.community li{
+    list-style: none;
+}
+
+.community ul{
+    padding-left: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.description {
+    width: 40%;
+    margin-left: 180px;
+}
+
+.description p{
+    margin-left: 0;
+}
+
+.links{
+    display: flex;
+    margin-right: 180px;
+}
