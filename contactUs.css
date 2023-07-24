@@ -76,6 +76,16 @@ textarea{
     justify-content: space-between;
 }
 
+.button #reset:hover{
+    background-color: rgba(255, 125, 125, 0.687);
+    cursor: pointer;
+}
+
+.button #submit:hover{
+    background-color: rgba(116, 248, 72, 0.726);
+    cursor: pointer;
+}
+
 .button button{
     margin: 10px;
     padding: 10px;
